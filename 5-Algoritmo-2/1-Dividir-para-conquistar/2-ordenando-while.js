@@ -1,0 +1,37 @@
+const {edGalho, edFolha} = require("./1-arrays");
+
+function juntaListas(lista1,lista2){
+    let listaFinal = [];
+    let posicaoAtualLista1 = 0;
+    let posicaoAtualLista2= 0;
+    let atual = 0;
+
+    //É necessario fazer uma pequena correção de bug para ajustar e nosso algoritmo             cobrir os dois casos,  
+    //em que acabe a lista 1 antes ou que acabe a lista 2 antes.
+
+    while(posicaoAtualLista1 < lista1.length && posicaoAtualLista2 < lista2.length) {
+        
+        let produtoAtualLista1 = lista1[posicaoAtualLista1];
+
+        let produtoAtualLista2 = lista2[posicaoAtualLista2];
+
+        if(produtoAtualLista1.preco < produtoAtualLista2.preco){
+            listaFinal[atual] = produtoAtualLista1
+            
+            posicaoAtualLista1 ++
+
+        }else{
+
+            listaFinal[atual] = produtoAtualLista2
+            
+            posicaoAtualLista2 ++;
+
+        }
+
+        atual ++;
+    }
+   
+    return listaFinal;
+}
+
+console.log(juntaListas(edGalho,edFolha));

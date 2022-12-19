@@ -1,0 +1,25 @@
+{
+  "name": "1-Estrutura-do-projeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./api/index.js",
+  "type": "module",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "save": "^2.9.0",
+    "sequelize": "^6.27.0",
+    "sequelize-cli": "^6.5.2",
+    "sudo": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon ./api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "2708-node-lib-md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tratando-novos-erros": "node ./4-Usando-linha-de-comando/5-tratando-novos-erros.js ./arquivos/texto.md",
+    "tratando-novos-erros:valida": "node ./5-Validando-links/1-adicionando-opcoes.js ./arquivos/texto.md --valida" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alura-cursos/2708-node-lib-md.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alura-cursos/2708-node-lib-md/issues"
+  },
+  "homepage": "https://github.com/alura-cursos/2708-node-lib-md#readme",
+  "dependencies": {
+    "chalk": "5.0.1"
+  }
+}
