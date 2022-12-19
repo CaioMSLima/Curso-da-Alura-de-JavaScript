@@ -1,2 +1,2 @@
 # JavaScript
-Aprendendo e criando projetos em JavaScript pela Alura no VSC
+Aprendendo e criando projetos em JavaScript pela Alura no VSCode
