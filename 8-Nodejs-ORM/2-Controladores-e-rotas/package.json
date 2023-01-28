@@ -6,6 +6,7 @@
   "type": "module",
   "dependencies": {
     "body-parser": "^1.20.1",
+    "eslint": "^8.31.0",
     "express": "^4.18.2",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.3",
@@ -16,7 +17,6 @@
     "sequelize-cli": "^6.5.2",
     "sudo": "^1.0.3"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "nodemon ./api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
